@@ -8,7 +8,7 @@ using VectorGraphicRedactor.Managers;
 
 namespace VectorGraphicRedactor.ICommands
 {
-    internal class DeleteShapeCommand
+    internal class DeleteShapeCommand : ICommand
     {
         private Shape shape;
         private int index;
@@ -21,7 +21,7 @@ namespace VectorGraphicRedactor.ICommands
             this.index = shapeManager.shapes.IndexOf(shape);
         }
 
-        public void Executre()
+        public void Execute()
         {
             shapeManager.shapes.Remove(shape);
         }

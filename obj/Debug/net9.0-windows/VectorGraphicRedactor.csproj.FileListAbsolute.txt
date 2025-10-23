@@ -1,0 +1,17 @@
+C:\Users\user\source\repos\VectorGraphicRedactor\obj\Debug\net9.0-windows\VectorGraphicRedactor.csproj.GenerateResource.cache
+C:\Users\user\source\repos\VectorGraphicRedactor\obj\Debug\net9.0-windows\VectorGraphicRedactor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\VectorGraphicRedactor\obj\Debug\net9.0-windows\VectorGraphicRedactor.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\VectorGraphicRedactor\obj\Debug\net9.0-windows\VectorGraphicRedactor.AssemblyInfo.cs
+C:\Users\user\source\repos\VectorGraphicRedactor\obj\Debug\net9.0-windows\VectorGraphicRedactor.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\VectorGraphicRedactor\obj\Debug\net9.0-windows\VectorGraphicRedactor.sourcelink.json
+C:\Users\user\source\repos\VectorGraphicRedactor\obj\Debug\net9.0-windows\VectorGraphicRedactor.Forms.MainForm.resources
+C:\Users\user\source\repos\VectorGraphicRedactor\bin\Debug\net9.0-windows\VectorGraphicRedactor.exe
+C:\Users\user\source\repos\VectorGraphicRedactor\bin\Debug\net9.0-windows\VectorGraphicRedactor.deps.json
+C:\Users\user\source\repos\VectorGraphicRedactor\bin\Debug\net9.0-windows\VectorGraphicRedactor.runtimeconfig.json
+C:\Users\user\source\repos\VectorGraphicRedactor\bin\Debug\net9.0-windows\VectorGraphicRedactor.dll
+C:\Users\user\source\repos\VectorGraphicRedactor\bin\Debug\net9.0-windows\VectorGraphicRedactor.pdb
+C:\Users\user\source\repos\VectorGraphicRedactor\obj\Debug\net9.0-windows\VectorGraphicRedactor.dll
+C:\Users\user\source\repos\VectorGraphicRedactor\obj\Debug\net9.0-windows\refint\VectorGraphicRedactor.dll
+C:\Users\user\source\repos\VectorGraphicRedactor\obj\Debug\net9.0-windows\VectorGraphicRedactor.pdb
+C:\Users\user\source\repos\VectorGraphicRedactor\obj\Debug\net9.0-windows\VectorGraphicRedactor.genruntimeconfig.cache
+C:\Users\user\source\repos\VectorGraphicRedactor\obj\Debug\net9.0-windows\ref\VectorGraphicRedactor.dll

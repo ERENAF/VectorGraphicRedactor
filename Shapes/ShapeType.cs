@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VectorGraphicRedactor.ICommands
+namespace VectorGraphicRedactor.Shapes
 {
-    internal class MoveShapeCommand
+    public enum ShapeType
     {
+        Rectangle,
+        Ellipse,
+        Line,
+        Polygon
     }
 }

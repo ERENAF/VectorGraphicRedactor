@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VectorGraphicRedactor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a40a37d8c431584858f7b283cb8502f4a9e4e099")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8318824e37a1f94d0be721c830ed237ac91a3fe2")]
 [assembly: System.Reflection.AssemblyProductAttribute("VectorGraphicRedactor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VectorGraphicRedactor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
