@@ -3,7 +3,47 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|c:\\users\\user\\source\\repos\\vectorgraphicredactor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|c:\\users\\user\\source\\repos\\vectorgraphicredactor\\icommands\\moveshapecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|solutionrelative:icommands\\moveshapecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|c:\\users\\user\\source\\repos\\vectorgraphicredactor\\icommands\\deleteshapecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|solutionrelative:icommands\\deleteshapecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|c:\\users\\user\\source\\repos\\vectorgraphicredactor\\icommands\\addshapecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|solutionrelative:icommands\\addshapecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|c:\\users\\user\\source\\repos\\vectorgraphicredactor\\icommands\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|solutionrelative:icommands\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|c:\\users\\user\\source\\repos\\vectorgraphicredactor\\managers\\shapemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|solutionrelative:managers\\shapemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|c:\\users\\user\\source\\repos\\vectorgraphicredactor\\shapes\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|solutionrelative:shapes\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|c:\\users\\user\\source\\repos\\vectorgraphicredactor\\vectorgraphicredactor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|solutionrelative:vectorgraphicredactor.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|c:\\users\\user\\source\\repos\\vectorgraphicredactor\\shapes\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|solutionrelative:shapes\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|c:\\users\\user\\source\\repos\\vectorgraphicredactor\\vectorgraph.drawio.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|solutionrelative:vectorgraph.drawio.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|c:\\users\\user\\source\\repos\\vectorgraphicredactor\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B30E7F63-53E8-4784-8321-569D71DBE04E}|VectorGraphicRedactor.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -19,14 +59,140 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MoveShapeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\ICommands\\MoveShapeCommand.cs",
+              "RelativeDocumentMoniker": "ICommands\\MoveShapeCommand.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\ICommands\\MoveShapeCommand.cs",
+              "RelativeToolTip": "ICommands\\MoveShapeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T01:40:53.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteShapeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\ICommands\\DeleteShapeCommand.cs",
+              "RelativeDocumentMoniker": "ICommands\\DeleteShapeCommand.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\ICommands\\DeleteShapeCommand.cs",
+              "RelativeToolTip": "ICommands\\DeleteShapeCommand.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAWwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T01:32:13.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddShapeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\ICommands\\AddShapeCommand.cs",
+              "RelativeDocumentMoniker": "ICommands\\AddShapeCommand.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\ICommands\\AddShapeCommand.cs",
+              "RelativeToolTip": "ICommands\\AddShapeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T01:18:58.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\ICommands\\ICommand.cs",
+              "RelativeDocumentMoniker": "ICommands\\ICommand.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\ICommands\\ICommand.cs",
+              "RelativeToolTip": "ICommands\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T01:12:45.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\Shapes\\Shape.cs",
+              "RelativeDocumentMoniker": "Shapes\\Shape.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\Shapes\\Shape.cs",
+              "RelativeToolTip": "Shapes\\Shape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T12:14:01.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShapeManager.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\Managers\\ShapeManager.cs",
+              "RelativeDocumentMoniker": "Managers\\ShapeManager.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\Managers\\ShapeManager.cs",
+              "RelativeToolTip": "Managers\\ShapeManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T01:24:29.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Rectangle.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\Shapes\\Rectangle.cs",
+              "RelativeDocumentMoniker": "Shapes\\Rectangle.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\Shapes\\Rectangle.cs",
+              "RelativeToolTip": "Shapes\\Rectangle.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwDAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T00:03:48.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-10-14T12:20:13.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VectorGraph.drawio.png",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\VectorGraph.drawio.png",
+              "RelativeDocumentMoniker": "VectorGraph.drawio.png",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\VectorGraph.drawio.png",
+              "RelativeToolTip": "VectorGraph.drawio.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-10-14T12:12:46.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VectorGraphicRedactor.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\VectorGraphicRedactor.csproj",
+              "RelativeDocumentMoniker": "VectorGraphicRedactor.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\VectorGraphicRedactor.csproj",
+              "RelativeToolTip": "VectorGraphicRedactor.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-14T12:13:09.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\VectorGraphicRedactor\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T12:46:28.075Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-10-13T12:46:28.075Z"
             }
           ]
         }

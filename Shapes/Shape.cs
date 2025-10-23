@@ -6,119 +6,110 @@ using System.Threading.Tasks;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Runtime.Serialization;
+using Microsoft.VisualBasic;
 
 namespace VectorGraphicRedactor.Shapes
 {
     public abstract class Shape
     {
         public Guid Id { get; set; }
-        private PointF _pos;
-        private float _rotation;
-        private float _scale = 1.0f;
+        private PointF _position;
+        private float _transperancy;
         private Color _fillColor;
         private Color _strokeColor;
         private float _strokeWidth;
-        public bool IsSelected { get; set; }
+        private float _width;
+        private float _height;
+        private bool _isSelected;
 
-        public Shape(PointF position, float rotation, float scale, Color fillColor, Color strokeColor, float strokewidth,bool isSelected = false)
+        public PointF Position
         {
-            Id = Guid.NewGuid();
-            Position = position;
-            Rotation = rotation;
-            Scale = scale;
-            Rotation = rotation;
-            FillColor = fillColor;
-            StrokeColor = strokeColor;
-            StrokeWidth = strokewidth;
-            IsSelected = isSelected;
+            get => _position; 
+            set => _position = value;
         }
-        private PointF Position
+        public float Transperancy
         {
-            get => _pos;
+            get => _transperancy;
             set
             {
-                if (value == null)
+                if (value < 0 ||  value > 100)
                 {
-                    throw new InvalidOperationException("position is missing");
+                    throw new InvalidOperationException("value has to be from 0 to 100");
                 }
-                _pos = value;
+                _transperancy = value;
             }
         }
-        private float Rotation
-        {
-            get => _rotation;
-            set
-            {
-                if (value == null)
-                {
-                    throw new InvalidOperationException("rotation is missing");
-
-                }
-                _rotation = value;
-            }
-        }
-        public float Scale
-        {
-            get => _scale;
-            set
-            {
-                if (value < 0.0f)
-                {
-                    throw new InvalidOperationException("scale is negative number");
-                }
-                if (value == null)
-                {
-                    throw new InvalidOperationException("scale is missing");
-                }
-                _scale = value;
-            }
-        }
-
         public Color FillColor
         {
             get => _fillColor;
-            set
-            {
-                if (value == null)
-                {
-
-                    throw new InvalidOperationException("fillcolor is missing");
-                }
-                _fillColor = value;
-            }
+            set => _fillColor = value;
         }
+        
         public Color StrokeColor
         {
             get => _strokeColor;
-            set
-            {
-                if (value == null)
-                {
-                    throw new InvalidOperationException("strokecolor is missing");
-                }
-                _strokeColor = value;
-            }
+            set => _strokeColor = value;
         }
-
         public float StrokeWidth
         {
             get => _strokeWidth;
             set
             {
-                if (value == null)
-                {
-                    throw new InvalidOperationException("strokewidth is missing");
-                }
                 if (value < 0)
                 {
-                    throw new InvalidOperationException("strokewidth is negative number");
+                    throw new InvalidOperationException("value is negative!");
                 }
-                _strokeWidth = value; 
+                _strokeWidth = value;
             }
         }
-
-
-        public abstract bool Contains(PointF point);
+        public float Width
+        {
+            get => _width;
+            set
+            {
+                if (value < 0)
+                {
+                    throw new InvalidOperationException("value is negative!");
+                }
+                _width = value;
+            }
+        }
+        public float Height
+        {
+            get => _height;
+            set
+            {
+                if (value < 0)
+                {
+                    throw new InvalidOperationException("value is negative!");
+                }
+                _height = value;
+            }
+        }
+        public bool IsSelected
+        {
+            get => _isSelected;
+            set => _isSelected = value;
+        }
+        public abstract void Move(float deltaX, float deltaY);
         public abstract void Draw(Graphics g);
+        public abstract bool Contains(Point point);
+        public abstract RectangleF GetBounds();
+        
+        protected Color ApplyTransp(Color color){ return Color.FromArgb((int)(Transperancy*255), color); }
+        protected Pen CreatePen()
+        {
+            var pen = new Pen(ApplyTransp(StrokeColor), StrokeWidth);
+            if (IsSelected)
+            {
+                pen.DashStyle = DashStyle.Dash;
+                pen.Color = Color.Red;
+            }
+            return pen;
+        }
+        protected Brush CreateBrush()
+        {
+            return new SolidBrush(ApplyTransp(FillColor));
+        }
     }
 }
